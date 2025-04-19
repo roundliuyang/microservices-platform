@@ -14,6 +14,6 @@ import lombok.extern.slf4j.Slf4j;
 public class OrderServiceImpl implements IOrderService {
     @Override
     public void save(Order order) {
-        System.out.println("============保存订单成功：" + order.getOrderId());
+        log.info("============保存订单成功：{}", order.getOrderId());
     }
 }
