@@ -1,2 +1,2 @@
-org.springframework.context.ApplicationContextInitializer=\
-com.central.log.config.TtlMDCAdapterInitializer
+#org.springframework.context.ApplicationContextInitializer=\
+#com.central.log.config.TtlMDCAdapterInitializer

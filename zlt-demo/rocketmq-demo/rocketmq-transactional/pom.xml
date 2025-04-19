@@ -24,6 +24,12 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-stream-rocketmq</artifactId>
         </dependency>
+        
+        <!-- 链路追踪log组件 -->
+        <dependency>
+            <groupId>com.zlt</groupId>
+            <artifactId>zlt-log-spring-boot-starter</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

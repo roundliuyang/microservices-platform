@@ -1,5 +1,7 @@
 server:
   port: 11002
+  servlet:
+    context-path: /rocket_demo
 
 spring:
   application:
@@ -33,7 +35,7 @@ spring:
       rocketmq:
         binder:
           # RocketMQ 服务器地址
-          name-server: 192.168.28.130:9876
+          name-server: 172.26.118.30:9876
         bindings:
           order-out-0:
             producer:
@@ -48,3 +50,7 @@ spring:
 logging:
   level:
     org.springframework.context.support: debug
+    
+zlt:
+  trace:
+    enable: true
