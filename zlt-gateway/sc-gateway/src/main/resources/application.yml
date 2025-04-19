@@ -134,12 +134,12 @@ zlt:
         #白名单
         includeClientIds:
           - webApp
-  #      renew:
-  #        #是否开启token自动续签（目前只有redis实现）
-  #        enable: true
-  #        #白名单
-  #        includeClientIds:
-  #          - webApp
+        renew:
+          #是否开启token自动续签（目前只有redis实现）
+          enable: true
+          #白名单
+          includeClientIds:
+            - webApp
   gateway:
     #网关动态路由
     dynamicRoute:
