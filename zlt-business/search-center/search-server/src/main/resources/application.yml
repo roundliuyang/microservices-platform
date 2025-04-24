@@ -2,7 +2,7 @@ spring:
   elasticsearch:
     uris: ${zlt.elasticsearch.uris}
     username: ${zlt.elasticsearch.username}
-    password: ${zlt.elasticsearch.password}
+#    password: ${zlt.elasticsearch.password}
 
 springdoc:
   group-configs:
@@ -17,4 +17,5 @@ knife4j:
 
 zlt:
   indices:
-    show: sys-log-*,mysql-slowlog-*,sys_user,point-log-*,audit-log-*
+    show: point-log-*
+#    show: sys-log-*,mysql-slowlog-*,sys_user,point-log-*,audit-log-*
